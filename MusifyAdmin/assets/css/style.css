@@ -1,0 +1,215 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+*{
+    font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+
+#navBarContainer{
+	background-color: black;
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+body{
+    background-color: #101010;
+    font-size: 14px;
+    max-width: 720px;
+}
+
+.navBar{
+	padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar .group{
+   padding-top: 50px;
+}
+.navIteam{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    letter-spacing: 1px;
+}
+.navIteamLink{
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+.navIteamLink:hover{
+    color: #ffffff;
+   }
+.navIteamLinkAdmin{
+  color: #a0a0a0;
+    text-decoration: none;
+    padding-top: 100px;
+}
+.navIteamLinkAdmin:hover{
+  color: #ffffff;
+}
+.navBar .groupadmin{
+   padding-top: 300px;
+}
+#mainViewContainer{
+   margin-left: 220px;
+    width: max-content;
+}
+#mainContent{
+    padding: 0 20px;
+}
+
+.pageheadingBig{
+    font-size: x-large;
+    font-weight: bold;
+    width: max-content;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+.button {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    padding: 15px;
+    min-width: 130px;
+}
+.button.green {
+    background-color: #2ebd59;
+    border-color: #2ebd59;
+    margin-left: 70px;
+}
+.buttonDiv{
+    padding-top: 50px;
+    padding-left: 300px;
+}
+.chooseDiv{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.rContainer{
+    width: 960px;
+    margin: 0 auto;
+}
+.selectIteam{
+    background-color: #0a0a0a;
+    block-size: 30px;
+    width: 300px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    margin-left:150px;
+}
+.wrapper{
+    width: max-content;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.data{
+    margin: inherit;
+}
+
+.table{
+        margin-top: 50px;
+        border: 1px solid #ccc;
+        clear: both;
+}
+.table th{
+    width: 200px;
+    font-family: verdana;
+    font-size: 13px;
+    color: rgb(84,84,172);
+    padding: 3px 20px 3px 20px;
+}
+.table td{
+    text-align: center;
+    width: 300px;
+    font-family: verdana;
+    font-size: 13px;
+    padding: 3px 68px 3px 68px;
+}
+
+.table2{
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        clear: both;
+}
+
+.table2 th{
+    width: 20px;
+    font-family: verdana;
+    font-size: 13px;
+    color: rgb(84,84,172);
+    padding: 3px 20px 3px 20px;
+}
+.table2 td{
+    text-align: center;
+    width: 10px;
+    font-family: verdana;
+    font-size: 13px;
+    padding: 3px 68px 3px 68px;
+}
+
+.inputfile{
+    height: 50px;
+    margin-left: 50px;
+}
+
+.inputt{
+    margin-left: 250px;
+    margin-top: 5px;
+    white-space: pre-wrap;
+}
+.songtitle{
+     font-size: initial;
+    font-style: normal;
+    font-variant: common-ligatures;
+    font-weight: bold;
+}
+.inputtext{
+    background-color: #101010;
+    margin-top: 7px;
+    border: none;
+    border-bottom: 2px solid #a79d9d;
+    width: 300px;
+    height: 25px;
+}
+.buttonlogout{
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    padding: 15px;
+    min-width: 130px;
+    margin-left: 420px;
+    margin-top: 80px;
+}
+.selectIteam2{
+    background-color: #0a0a0a;
+    block-size: 30px;
+    width: 300px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    margin-left:150px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.labelrpt{
+    margin-left: 300px;
+    font-size: x-large;
+    font-weight: bolder;
+}
